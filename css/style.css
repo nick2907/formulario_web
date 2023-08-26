@@ -1,0 +1,91 @@
+body {
+  background: url('img/background formulario.png');
+  background-size: cover;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ca5b5b;
+  border-bottom: 2px solid #af5f5f;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.certo {
+  border: 2px solid rgb(44, 75, 214);
+  box-shadow: 4px 0px 5px rgb(13, 30, 182);
+}
+
+.erro {
+  border: 2px #a52a2ab4;
+  box-shadow: 3px 0px 5px #a52a2a;
+}
+
+form {
+  background-color: #fcd0a1;
+  border-radius: 10px;
+  padding: 20px;
+  width: 550px;
+  margin: 50px auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #de5959;
+}
+
+
+.infos[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+
+button {
+  background-color: #de5959;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #b54141;
+}
+
+#limpar {
+  background-color: #fcb13e;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#limpar:hover {
+  background-color: #c78d35;
+}
+
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
